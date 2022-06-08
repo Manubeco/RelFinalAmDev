@@ -1,3 +1,5 @@
+import util.Calculadora;
+
 public class CalcPacotesAbertos{
         
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class CalcPacotesAbertos{
         double PacotesArrozUsados;
 
         arrozCruNecessario = arrozCozido/arroz_RendimentoPct;
-        PacotesArrozUsados= Calculadora.Teto(arrozCruNecessario);
+        PacotesArrozUsados= Calculadora.teto(arrozCruNecessario);
         
         System.out.println("Para cozinhar "+arrozCozido+" quilos de arroz, é necessário "+PacotesArrozUsados+" pacotes de arroz.");
     }

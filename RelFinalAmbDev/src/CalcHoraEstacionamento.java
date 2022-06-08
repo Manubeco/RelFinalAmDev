@@ -1,3 +1,5 @@
+import util.Calculadora;
+
 public class CalcHoraEstacionamento {
     
     
@@ -9,7 +11,7 @@ public class CalcHoraEstacionamento {
         double horaTotal;
         double valorFinal;
 
-        horaTotal =Calculadora.Piso( horaFinal-horaInicial);
+        horaTotal = Calculadora.piso( horaFinal-horaInicial);
         valorFinal = horaTotal*valorHora;
          
         System.out.println("O total de horas foi: "+horaTotal+" e o valor a pagar é: "+ valorFinal);

@@ -1,3 +1,5 @@
+package util;
+
 import java.lang.Math;
 
 public class Calculadora {
@@ -20,11 +22,11 @@ public class Calculadora {
     public void raizQuadrada(){
     }
     
-    public Double teto(double numeroA){
+    public static Double teto(double numeroA){
         return Math.ceil(numeroA);
     }
     
-    public double piso(double numeroA){
+    public static double piso(double numeroA){
         return Math.floor(numeroA);
     }
     
