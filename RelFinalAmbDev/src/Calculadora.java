@@ -20,10 +20,12 @@ public class Calculadora {
     public void raizQuadrada(){
     }
     
-    public void teto(){
+    public Double teto(double numeroA){
+        return Math.ceil(numeroA);
     }
     
-    public void piso(){
+    public double piso(double numeroA){
+        return Math.floor(numeroA);
     }
     
 }
