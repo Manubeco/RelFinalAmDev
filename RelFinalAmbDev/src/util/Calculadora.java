@@ -10,7 +10,7 @@ public class Calculadora {
     public void subtracao(){
     }
     
-    public void multiplicacao(double numeroA, double numeroB){return numeroA * numeroB;}
+    public void multiplicacao(){}
     
     public void divisao(){
     }
