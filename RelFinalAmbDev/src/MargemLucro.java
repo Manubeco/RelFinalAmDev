@@ -1,16 +1,15 @@
-import util.Calculadora;
+import util. Calculadora;
 
 public class MargemLucro {
     public static void main(String[] args) {
 
         double receitaTotal = 100;
         double custos = 50;
-        double lucro;
+        double lucro = receitaTotal - custos;
         double margem;
         double lucroTotal;
             
-            lucro = receitaTotal - custos;
-            margem = Calculadora.divisao(lucro / receitaTotal);
+            margem = Calculadora.divisao(lucro, receitaTotal);
             lucroTotal = margem*receitaTotal;
     
             System.out.println (lucroTotal);}

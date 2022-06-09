@@ -12,11 +12,11 @@ public class Calculadora {
         return (numeroA - numeroB);
     }
     
-    public void multiplicacao(double numeroA, double numeroB){
+    public static float multiplicacao(float numeroA, float numeroB){
         return (numeroA * numeroB);
     }
     
-    public void divisao(double numeroA, double numeroB){
+    public static double divisao(double numeroA, double numeroB){
         return (numeroA / numeroB);
     }
     
@@ -35,5 +35,5 @@ public class Calculadora {
     public static double piso(double numeroA){
         return Math.floor(numeroA);
     }
-    
+   
 }
