@@ -15,8 +15,9 @@ public class Calculadora {
     public void divisao(){
     }
     
-    public void exponencial(){
-    }
+    public static double exponencial(double numeroA, double numeroB) {
+		return Math.pow(numeroA, numeroB);
+	}
     
     public void raizQuadrada(){
     }
