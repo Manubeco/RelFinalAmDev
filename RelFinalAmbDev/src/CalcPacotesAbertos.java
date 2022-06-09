@@ -17,7 +17,7 @@ public class CalcPacotesAbertos{
         double arrozCruNecessario;
         double PacotesArrozUsados;
 
-        arrozCruNecessario = arrozCozido/arroz_RendimentoPct;
+        arrozCruNecessario = Calculadora.divisao(arrozCozido,arroz_RendimentoPct);
         PacotesArrozUsados= Calculadora.teto(arrozCruNecessario);
         
         System.out.println("Para cozinhar "+arrozCozido+" quilos de arroz, é necessário "+PacotesArrozUsados+" pacotes de arroz.");

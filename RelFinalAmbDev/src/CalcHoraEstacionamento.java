@@ -19,7 +19,7 @@ public class CalcHoraEstacionamento {
         double valorFinal;
 
         horaTotal = Calculadora.piso( horaFinal-horaInicial);
-        valorFinal = horaTotal*valorHora;
+        valorFinal = Calculadora.multiplicacao(horaTotal,valorHora);
          
         System.out.println("O total de horas foi: "+horaTotal+" e o valor a pagar é: "+ valorFinal);
     }
