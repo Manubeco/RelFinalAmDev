@@ -1,8 +1,10 @@
-public class VendaIngressos {
+import util.Calculadora;
+
+public class CalculadoraIngresso {
     public static void main(String args[]) {
-      int quantidadeTotal = 100;
-      int ingressosVendidos = 30;
-      int quantidadeRestante = quantidadeTotal - ingressosVendidos;
+      double quantidadeTotal = 100.00;
+      double ingressosVendidos = 30.00;
+      double quantidadeRestante = Calculadora.subtracao(quantidadeTotal, ingressosVendidos);
       
       System.out.println("A quantidade de ingressos restantes é: " + quantidadeRestante);
     }

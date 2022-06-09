@@ -1,9 +1,11 @@
-public class VendaLivros {
+import util.Calculadora;
+
+public class CalculadoraLivraria {
     public static void main(String args[]) {
-      int livro1 = 70;
-      int livro2 = 60;
+      double livro1 = 70.00;
+      double livro2 = 60.00;
       
-      int total= livro1 + livro2;
+      double total = Calculadora.soma(livro1, livro2);
 
       System.out.println("A valor total do preço dos dois livros é: " + total);
     }

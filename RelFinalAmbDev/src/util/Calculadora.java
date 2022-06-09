@@ -4,12 +4,12 @@ import java.lang.Math;
 
 public class Calculadora {
     
-    public void soma(int numeroA, int numeroB){
-        return soma(numeroA + numeroB);
+    public static double soma(double numeroA, double numeroB){
+        return (numeroA + numeroB);
     }
     
-    public void subtracao(int numeroA, int numeroB){
-        return subtracao(numeroA - numeroB);
+    public static double subtracao(double numeroA, double numeroB){
+        return (numeroA - numeroB);
     }
     
     public void multiplicacao(){}
