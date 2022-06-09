@@ -12,7 +12,9 @@ public class Calculadora {
         return (numeroA - numeroB);
     }
     
-    public void multiplicacao(){}
+    public void multiplicacao(double numeroA, double numeroB){
+        return (numeroA * numeroB);
+    }
     
     public void divisao(){
     }
