@@ -16,7 +16,8 @@ public class Calculadora {
         return (numeroA * numeroB);
     }
     
-    public void divisao(){
+    public void divisao(double numeroA, double numeroB){
+        return (numeroA / numeroB);
     }
     
     public static double exponencial(double numeroA, double numeroB) {
