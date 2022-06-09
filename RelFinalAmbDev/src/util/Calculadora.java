@@ -19,7 +19,8 @@ public class Calculadora {
 		return Math.pow(numeroA, numeroB);
 	}
     
-    public void raizQuadrada(){
+    public static double raizQuadrada(double NumeroA){
+        return Math.sqrt(NumeroA);
     }
     
     public static double teto(double numeroA){
