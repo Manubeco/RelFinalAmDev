@@ -21,10 +21,12 @@ public class Calculadora {
     public void raizQuadrada(){
     }
     
-    public void teto(){
+    public static double teto(double numeroA){
+        return Math.ceil(numeroA);
     }
     
-    public void piso(){
+    public static double piso(double numeroA){
+        return Math.floor(numeroA);
     }
     
 }
