@@ -12,7 +12,7 @@ public class Calculadora {
         return (numeroA - numeroB);
     }
     
-    public static float multiplicacao(float numeroA, float numeroB){
+    public static double multiplicacao(double numeroA, double numeroB){
         return (numeroA * numeroB);
     }
     
